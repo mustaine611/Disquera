@@ -3,17 +3,19 @@ import './Api/Api'
 import { Header } from "./Header/Header";
 import { Navbar } from "./Navbar/Navbar";
 import Api from './Api/Api';
-
+import { Pspotify } from './Api/Pspotify';
 
 
 function App() {
+
+
+
+
   return (
     <div className='app'>
-       
-        <Navbar/>
-        <Header/>
-        <Api/>
-        
+      
+      
+      <button onClick={Pspotify()}>update list </button>
 
     </div>
     
